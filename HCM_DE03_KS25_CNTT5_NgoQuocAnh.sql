@@ -76,13 +76,13 @@ INSERT INTO Orders (customer_id, order_date, total_price) VALUES
 INSERT INTO Order_Detail (order_id, product_id, quantity, sale_price) VALUES
 (1, 3, 1, 2500000),
 (2, 4, 1, 1800000),
-(2, 7, 1, 3500000),
-(3, 7, 1, 3500000),
+(2, 2, 1, 3500000),
+(3, 2, 1, 3500000),
 (4, 2, 1, 1200000),
-(5, 4, 1, 1800000),
-(5, 5, 1,  350000),
-(5, 6, 1,  420000),
-(5, 8, 2,  650000);
+(5, 3, 1, 1800000),
+(5, 1, 1,  350000),
+(5, 4, 1,  420000),
+(5, 2, 2,  650000);
 
 SET SQL_SAFE_UPDATES = 0;
 
